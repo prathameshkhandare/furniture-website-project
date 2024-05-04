@@ -5,6 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: #555;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        @media screen and (max-width: 600px) {
+            table {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to the Admin Dashboard</h1>
