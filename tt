@@ -1,0 +1,66 @@
+<section class="cards-container">
+                <div class="product-card">
+                    <img src="/images/product-1.png" alt="Product Name" />
+                    <div class="card-product-info">
+                        <h4>Product Title</h4>
+                        <p class="card-price">&#x20B9;3000</p>
+                        <button class="card-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/images/product-2.png" alt="Product Name" />
+                    <div class="card-product-info">
+                        <h4>Product Title</h4>
+                        <p class="card-price">&#x20B9;3500</p>
+                        <button class="card-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/images/product-3.png" alt="Product Name" />
+                    <div class="card-product-info">
+                        <h4>Product Title</h4>
+                        <p class="card-price">&#x20B9;4000</p>
+                        <button class="card-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/images/sofa.png" alt="Product Name" />
+                    <div class="card-product-info">
+                        <h4>Product Title</h4>
+                        <p class="card-price">&#x20B9;4500</p>
+                        <button class="card-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/images/product-1.png" alt="Product Name" />
+                    <div class="card-product-info">
+                        <h4>Product Title</h4>
+                        <p class="card-price">&#x20B9;5000</p>
+                        <button class="card-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/images/product-2.png" alt="Product Name" />
+                    <div class="card-product-info">
+                        <h4>Product Title</h4>
+                        <p class="card-price">&#x20B9;5500</p>
+                        <button class="card-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/images/product-3.png" alt="Product Name" />
+                    <div class="card-product-info">
+                        <h4>Product Title</h4>
+                        <p class="card-price">&#x20B9;6000</p>
+                        <button class="card-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/images/sofa.png" alt="Product Name" />
+                    <div class="card-product-info">
+                        <h4>Product Title</h4>
+                        <p class="card-price">&#x20B9;6500</p>
+                        <button class="card-button">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
