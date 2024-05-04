@@ -1,0 +1,254 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-items li {
+    margin-right: 20px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.nav-items a:hover {
+    color: #000;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-container input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-container button {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+
+.search-container button:hover {
+    background-color: #222;
+}
+
+.material-icons {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.hero-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 2.5rem;
+    gap: 15px;
+    background-image: linear-gradient(90deg, #35353569, rgb(31, 42, 53)),
+        url("images/pexels-vecislavas-popa-1571463.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.hero-header {
+    font-size: 3rem;
+    font-weight: bold;
+    /* font-family: "Robot"; */
+    /* color: #222; */
+    margin: 0;
+}
+
+.hero-para {
+    padding: 0 3rem 0 3rem;
+    text-align: center;
+    width: 50%;
+}
+
+.hero-button-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.hero-buttons {
+    border: none;
+    background-color: transparent;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.hero-get-started {
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 7px 17px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #222;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.card-product-info {
+    padding: 10px;
+}
+
+.card-product-info h4 {
+    margin-bottom: 5px;
+}
+
+.card-price {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    background-color: #3e8e41;
+}
+
+footer {
+    padding: 1rem 2rem 0 2rem;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+footer .column-one .footer-header {
+    font-size: 1.35rem;
+    font-weight: 900;
+}
+
+.column-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+
+.column-two .item {
+    display: inherit;
+    gap: 1rem;
+}
+
+.footer-icon .icon img {
+    width: 25px;
+}
+
+footer .column-three {
+    text-align: center;
+    padding: 1rem;
+}
+
+.about-container {
+    line-height: 1.6;
+}
+
+.about-header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #444;
+    color: #fff;
+}
+
+.about-main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-container-section {
+    margin-bottom: 40px;
+}
+
+.about-inner-header {
+    margin-bottom: 20px;
+}
+
+.about-list {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about-list li {
+    margin-bottom: 10px;
+}

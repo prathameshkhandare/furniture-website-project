@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .login-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 100vh;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #007bff;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .form-container h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .form-main {
+            width: 80%;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .input-group label {
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .signup-link {
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+        .signup-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <body>
+        <div class="login-container">
+            <div class="image-container">
+                <img src="/images/img-grid-3.jpg" alt="Login Image" />
+            </div>
+            <div class="form-container">
+                <h2>Signup</h2>
+                <form action="#" method="post" class="form-main">
+                    <div class="input-group">
+                        <label for="username">Username</label>
+                        <input
+                            type="text"
+                            id="username"
+                            name="username"
+                            required
+                        />
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            required
+                        />
+                    </div>
+                    <button type="submit">Signup</button>
+                </form>
+                <div class="signup-link">
+                    Don't have an account? <a href="login.html">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
